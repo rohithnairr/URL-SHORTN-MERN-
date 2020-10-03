@@ -1,0 +1,24 @@
+{
+  "name": "urlshrtn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently  \"npm run server \" \"npm run client\""
+  },
+  "author": "rohith nair r",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7",
+    "nodemon": "^2.0.4",
+    "react-scripts": "^3.4.3",
+    "uniqid": "^5.2.0",
+    "url": "^0.11.0"
+  }
+}
